@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Geneva, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    text-align: center;
+    margin: 200px auto;
+    width: 50%;
+    height: 200px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px #babacc, -5px -5px 5px #babacc;
+}
+#upperText{
+    margin: 20px auto;
+    width: 60%;
+    font-size: 36px;
+    text-shadow: 2px 2px 1px #fff;
+}
+#middleText{
+    margin: 1px auto 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #fff;
+}
+#number{
+    margin: 1px 15px 30px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    width: 15%;
+    text-shadow: 1px 1px 0 #fff;
+    box-shadow: inset 2px 2px 5px #babacc, inset -5px -5px 10px #babacc;
+    transition: all 0.2 ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+}
+#number:focus{
+    box-shadow: inset 1px 1px 2px #babacc, inset -1px -1px 2px #fff;
+}
+#btn{
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 15%;
+    text-shadow: 1px 1px 0 #fff;
+    background-color: bisque;
+    color: blue;
+    font-weight: bold;
+    transition: all 0.2 ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+#btn:hover{
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babacc;
+}
+#btn:active{
+    box-shadow: inset 1px 1px 2px #babacc, inset -1px -1px 2px #fff;
+}
+#bottomText{
+    margin: 10px auto 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #fff;
+}

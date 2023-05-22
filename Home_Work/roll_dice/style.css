@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #07d2fb5a, #eea40e00);
+}
+
+
+.mainWindow {
+    height: 400px;
+    width: 600px;
+    background-color: #7a75a5;
+    margin: 130px auto 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.active {
+    background-color: #433f20;
+}
+
+.diceScore {
+    background-color: #2a4336;
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.centerLine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hidden {
+    display: none;
+}
+.newGameBtn{
+    background-color: chartreuse;
+}
+.rollDiceBtn{
+    background-color: chartreuse;
+}
+.holdBtn{
+    background-color: chartreuse;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    /* text-align: center; */
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+.contanier{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height:1000px;
+    background: #fff;
+    /* margin: 50px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin-top: 350px;
+}
+.contanier .left_Side{
+    position: relative;
+    background: black;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.profileText .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.contanier .right_Side{
+    position: relative;
+    background:gray;
+    padding: 40px;
+}
+.contactInfo{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.contactInfo ul{
+    position: relative;
+    /* border-bottom: 1px solid white; */
+}
+.contactInfo ul li{
+    /* list-style: none; */
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: cornflowerblue;
+}
+.contactInfo ul li span{
+    color:#fff;
+    font-weight: 300;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about :last-child{
+    margin-bottom: 0px;
+}
+.title2{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+p{
+    color: lavenderblush;
+    font-size: 20px;
+}
+.title3{
+    border-bottom: 1px solid white;
+    color:black;
+}
+.title4{
+    border-bottom: 1px solid white;
+    color:black;
+}
+.title5{
+    border-bottom: 1px solid white;
+    color:black;
+}

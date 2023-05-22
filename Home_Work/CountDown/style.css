@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    color: white;
+    margin-left: 190px;
+}
+.content h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: red;
+}
+.content button{
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
